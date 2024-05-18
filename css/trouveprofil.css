@@ -1,0 +1,473 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'popping', sans-serif;
+    scroll-behavior: smooth;
+    }
+    section#infos{
+        /*padding: 300px;*/
+        padding-right: 50px;
+        width:1150px;
+        position:absolute;
+        /*height: 700px;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*padding-top: 5px;*/
+        /*padding-bottom: 100px;*/
+        /*margin-top: 200px;*/
+        background-color:#E5F6FF;
+        margin-right:25px;
+        margin-left:90px;
+        margin-top:90px;
+        margin-bottom:420px;
+        height:350px;
+        border-radius:15px;
+    }
+    
+    label[for="infoo"]{
+      display: block;
+      font-weight:700;
+      font-size: larger;
+    
+    }
+    .infoo select{
+      width:270px;
+      height:40px;
+      border-radius:5px;
+      border-color:black;
+      
+    
+    }
+    
+    .infos .i{
+        display: flex;
+        position: relative;
+        
+    }  
+    
+    .infos .info a{
+        text-decoration: none;
+        margin-right: 20px;
+        font-weight: 900;
+        padding-top: 30px; 
+        width:1800px;}
+    .infos .info li{
+      list-style: none;
+    }    
+    
+    
+    .infos .info img{
+        height: 370px;
+        width: 300px;
+        position: absolute;
+        float: right;
+        border-radius: 70px;
+        padding-left: 20px;
+        padding-bottom:30px;
+        right: 10px;
+        margin-right: -650px;
+        margin-top: -250px; 
+    }
+    .input h1{
+        color: black;
+    }
+    ul.info  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        
+        background-color: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        position: absolute;
+        
+        border-radius: 20px;
+        margin-left:50px;
+        margin-top: 20px;
+        height: 250px;
+        width:1100px;
+      }
+    .info li:nth-child(4) input[placeholder="Tags."] {
+      margin-top:35px;
+      position: absolute;
+      margin-left:-750px;
+    }
+    .info li:nth-child(4) h1 {
+        margin-top:0px;
+        margin-left:-750px;
+        position: absolute;
+    }
+    .info li:nth-child(1) input[type="text"], .info li:nth-child(2) input[type="text"],.info li:nth-child(3) select {
+        margin-bottom:100px;
+    }
+   
+    
+    .info  {
+        border-radius: 20px;
+        padding-left:10px;
+    }
+      
+    .info .input {
+        position: relative;
+        color:#A9A9A9;
+        
+    }
+      
+    .info  input[type="text"] {
+        padding-left: 30px;
+        border-radius: 5px;
+        padding: 20px;
+        padding-right:10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #D3D3D3 ; 
+    }
+      
+    .info .input i {
+        position: absolute;
+        top: 77%;
+        left: 5px;
+        transform: translateY(-50%);
+        
+    }
+    .info  button {
+        background-color: #9777FA;
+        color: #fff;
+        border-bottom: #9777FA;
+        padding: 10px;
+        position: absolute;
+        margin-left:-420px;
+        border-radius: 5px;
+        width:110px;
+        border-color:#9777FA;
+        margin-top:75px;
+      }
+
+
+    .profils{
+        display: 300px;
+        padding: 300px;
+        /*padding-right:270px;
+        padding-left:250px;*/
+        position:absolute;
+        /*height: 190px;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*padding-top: 180px;
+        padding-bottom: 100px;
+        /*margin-top: 200px;*/
+        background-color:white;
+        margin-left: 175px; 
+        /*margin-top: -450px;*/
+        margin-bottom: 200px;
+        padding-right: 500px;
+        border-radius: 40px;
+        /*width:950px;  */
+        margin-top:542px;
+    }
+    
+    
+    .profils .titre  h1{
+     margin-top:-240px;
+     padding-bottom: 100px;
+     font-size: 1.5em;
+     white-space: nowrap;
+     margin-left: -380px;
+     color: grey;
+     position:absolute;
+    }
+     .profils .titre h1 span{
+        color: black;
+     } 
+    .profils .meilleur  {
+      border-radius: 10px;
+      padding-left: 5px;
+      height:100px;
+      /*width:450px;*/
+      width: 250px;
+      display: flex;
+      /*position: relative;*/
+      justify-content: center;
+      align-items: center;
+      margin-left:-15px;
+      
+     }
+    
+     .profils .meilleur2  {
+        border-radius: 10px;
+        padding-left: 5px;
+        height:100px;
+        /*width:450px;*/
+        width: 250px;
+        display: flex;
+        /*position: relative;*/
+        justify-content: center;
+        align-items: center;
+        margin-left:-10px;
+        position: absolute;
+       }
+      
+    
+      .profils .meilleur .box{
+        /*margin-right:-25px;
+        margin-left:125px;*/
+        width: 280px;
+        border: 60px solid white; 
+        padding: 10px;
+        background-color: #fff;
+        height:400px;
+        border-radius: 15px;
+        padding-top:10px;
+        margin-top:15px;
+        /*margin-right:25px;*/
+        justify-content: space-between;
+        margin-left:105px;
+        margin-right:-90px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      }
+      .profils .meilleur2 .box{
+        /*margin-right:-25px;
+        margin-left:125px;*/
+        width: 280px;
+        border: 60px solid white; 
+        padding: 10px;
+        background-color: #fff;
+        height:400px;
+        border-radius: 15px;
+        padding-top:10px;
+        margin-top:925px;
+        /*margin-right:25px;*/
+        justify-content: space-between;
+        margin-left:105px;
+        margin-right:-90px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      }
+    
+    
+    .meilleur .box .inbox{
+     position: center;
+     /*width: 100%;
+     height: 100px;*/
+     display: flex;
+     
+     
+    }
+    .meilleur2 .box .inbox{
+        position: center;
+        /*width: 100%;
+        height: 100px;*/
+        display: flex;
+        
+        
+       }
+    
+    
+    .meilleur .box .inbox img {
+      margin-top:20px;
+      display: flex;
+      /*align-items: center;*/
+      justify-content: center;
+      height: 150px;
+      align-items: center;
+      /*display: block;*/
+      margin: 0 auto;
+      padding-top:2px;
+      border-radius: 100%;
+      height:145px;
+      width:145px;
+      
+    }
+    .meilleur2 .box .inbox img {
+        margin-top:20px;
+        display: flex;
+        /*align-items: center;*/
+        justify-content: center;
+        height: 150px;
+        align-items: center;
+        /*display: block;*/
+        margin: 0 auto;
+        padding-top:2px;
+        border-radius: 100%;
+        height:145px;
+        width:145px;
+        
+      }
+    /*.profils .meilleur .box .inbox img{
+      
+      display: block;
+      margin: 0 auto;
+      padding-top:5px;
+      border-radius: 100%;
+      }*/
+    .profils .meilleur .box .Contact img{
+      width: 25px;
+      height:29.5px;
+      
+      padding-top:10px;
+      width: 20px;
+      
+      
+    }
+    .profils .meilleur2 .box .Contact img{
+        width: 25px;
+        height:29.5px;
+        
+        padding-top:10px;
+        width: 20px;
+        
+        
+      }
+    
+    .profils .meilleur .box .étoiles {
+      color: #FFD700;
+      margin-top:5px;
+      padding-left: 25px;
+    }
+    .profils .meilleur2 .box .étoiles {
+        color: #FFD700;
+        margin-top:5px;
+        padding-left: 25px;
+      }
+    .profils .meilleur .box .reaction button{
+      color:#D9D9D9;
+      border-color:#D9D9D9;
+      /*margin-left: 5px;*/
+      /*margin-right:9.5px;
+      margin-left: -16px;*/ 
+      margin-right: 4px;
+    
+      
+      
+    }
+    .profils .meilleur2 .box .reaction button{
+        color:#D9D9D9;
+        border-color:#D9D9D9;
+        /*margin-left: 5px;*/
+        /*margin-right:9.5px;
+        margin-left: -16px;*/ 
+        margin-right: 4px;
+      
+        
+        
+      }
+    
+    .profils .meilleur .box .reaction{
+      display: flex;
+      justify-content: space-between;
+    }
+    .profils .meilleur2 .box .reaction{
+        display: flex;
+        justify-content: space-between;
+      }
+    
+    
+    
+    
+    .profils .meilleur .box .text p{
+      color:#000000;
+      padding-left:29px;
+    
+    }
+    .profils .meilleur2 .box .text p{
+        color:#000000;
+        padding-left:29px;
+      
+      }
+
+    .profils .meilleur .box .bouton button{
+    color:#fff;
+    background-color: rgba(31, 107, 207, 0.596);
+    margin-top:15px;
+    margin-left: 78px;
+    margin-left:35px;
+    margin-bottom:15px;
+    }
+    .profils .meilleur2 .box .bouton button{
+        color:#fff;
+        background-color: rgba(31, 107, 207, 0.596);
+        margin-top:15px;
+        margin-left: 78px;
+        margin-left:35px;
+        margin-bottom:15px;
+        }
+    
+    .profils .meilleur .box .Contact button{   
+      color:#fff;
+      background-color: #000000;
+      border-radius: 0px;
+      padding-top:6.2px;
+      margin-left:6.5px;
+    
+    } 
+    .profils .meilleur2 .box .Contact button{   
+        color:#fff;
+        background-color: #000000;
+        border-radius: 0px;
+        padding-top:6.2px;
+        margin-left:6.5px;
+      
+      }  
+          
+    .profils .meilleur .box .text h1{
+      padding-left:60px;
+    }
+    .profils .meilleur2 .box .text h1{
+        padding-left:60px;
+      }
+    
+     
+    
+    
+    
+    
+    
+    /* responsiveeee*/
+    
+@media (max-width: 768px) {
+  section#infos {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  ul.info {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .infoo select {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .info li:nth-child(4) input[placeholder="Tags."],
+  .info li:nth-child(4) h1 {
+    margin-top: 10px;
+    margin-left: 0;
+    position: relative;
+  }
+
+  ul.info li input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  ul.info li button {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,153 @@
+:root  {
+    --bgColor : #ffffff;
+    --bgColorC : #FFF9F3;
+    --bgColorB : #E5F6FF;
+    --bgColorG : #999999;
+    --bgColorGr : #DDDDDD;
+    --buttonColor :#9777FA;
+    --txtColor : #000000;
+    --shadow : #77777763;
+    --marginP : 50px; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    padding: 15px 30px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px var(--shadow);
+    background-color: var(--bgColor);
+}
+.navbar a {
+    color: var(--txtColor);
+}
+.logo i {
+    width: 40px;
+    margin: 0 10px;
+}
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: var(--txtColor);
+}
+.navbar .nav-links > ul {
+    display: flex;
+    align-items: center;
+}
+.navbar .navlinks > ul > li {
+    margin: 25px 0;
+}
+.search {
+    display: flex;
+    align-items: center;
+    color: var(--txtColor);
+    height: 40px;
+    cursor: pointer;
+    background-color: var(--bgColorGr);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding-right: 15px;
+    margin:10px;
+}
+.search i {
+    margin: 5px 15px;
+    color: var(--buttonColor);
+}
+.search-menu .search-submenu {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: var(--bgColor);
+    border: 1px solid var(--bgColorG);
+    box-shadow: 2px 2px 10px var(--bgColorG); 
+    opacity: 0;
+    transition: all 0.3s;
+}
+.search-menu .search-submenu.active {
+    opacity: 1;
+    transition: all 0.3s;
+}
+.search-menu li {
+    padding: 10px;
+    padding-right: 60px;
+    border-bottom: 2px solid var(--bgColorG)
+}
+.search-menu li :hover {
+    color: var(--buttonColor);
+}
+.navbar .nav-links > ul > li {
+    margin: 0 20px;
+}
+.user-menu {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+}
+.user-menu .user-submenu {
+    padding: 0;
+    margin: 25px;
+    position: absolute;
+    background-color: var(--bgColor);
+    border: 1px solid var(--bgColorG);
+    box-shadow: 2px 2px 10px var(--bgColorG);
+    opacity: 0;
+    transition: all 0.3s;
+}
+.user-menu .user-submenu.active {
+    opacity: 1;
+    transition: all 0.3s;
+}
+.user-menu ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid var(--bgColorG);
+}
+.user-menu li :hover {
+    color: var(--buttonColor);
+}
+ul {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--txtColor);
+}
+.navb .primarybtn {
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--buttonColor);
+    border-radius: 7px;
+    align-items: center;
+    border: var(--buttonColor) 2px solid;
+    color: var(--bgColor);
+    margin-right : 5px;
+    padding: 5px 10px ;
+}
+.navb .secondbtn {
+    height: 50px;
+    background-color: var(--bgColor);
+    cursor: pointer;
+    border-radius: 7px;
+    border: var(--buttonColor) 2px solid;
+    color: var(--txtColor);
+    padding: 5px 10px ;
+}

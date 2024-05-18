@@ -1,0 +1,641 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'popping', sans-serif;
+    scroll-behavior: smooth;
+    }
+           .offres .derniere .boxes{
+            /*width: 340px;*/
+            border: 2px solid #BBBBBB; 
+            background-color: white;
+            height:280px;
+            border-radius: 15px;
+            width: 300px;
+            margin-top:-150px;
+            margin-right:115px;
+            margin-left: -95px;
+            display: block;
+          }
+          .derniere2{
+            display: flex;
+            justify-content: space-between;
+            margin-left:-960px;
+            margin-top:55px;
+          }
+          .derniere3{
+            display: flex;
+            justify-content: space-between;
+            margin-left:2px;
+            margin-top:355px;
+            position:absolute;
+            
+          }
+          .derniere4{
+            display: flex;
+            justify-content: space-between;
+            margin-left:-955px;
+            margin-top:355px;
+           
+          }
+          .offres .derniere2 .boxes{
+            /*width: 340px;*/
+            border: 2px solid #BBBBBB; 
+            background-color: white;
+            height:280px;
+            border-radius: 15px;
+            width: 300px;
+            margin-top:150px;
+            margin-right:115px;
+            margin-left: -95px;
+            display: block;
+          }
+          .offres .derniere3 .boxes{
+            /*width: 340px;*/
+            border: 2px solid #BBBBBB; 
+            background-color: white;
+            height:280px;
+            border-radius: 15px;
+            width: 300px;
+            margin-top:150px;
+            margin-right:115px;
+            margin-left: -95px;
+            display: block;
+          }
+          .offres .derniere4 .boxes{
+            /*width: 340px;*/
+            border: 2px solid #BBBBBB; 
+            background-color: white;
+            height:280px;
+            border-radius: 15px;
+            width: 300px;
+            margin-top:150px;
+            margin-right:115px;
+            margin-left: -95px;
+            display: block;
+          }
+          
+        
+          .meilleur .boxes .boxe{
+          /*position: center;*/
+          /*display: wrap;*/ 
+          display: inline-block;
+          width: 30%; 
+          margin-right: 3%; /* une marge de 3% entre chaque élément */
+          box-sizing: border-box; /* pour inclure les bordures et les marges dans la largeur totale */
+          
+          }
+          
+          
+          
+          
+          .derniere .boxes .boxe img{ /*icon de google */
+          width:50px;
+          height:50px;
+          margin-top:11px;
+          border-radius: 20px;
+          
+          margin-left:5px;
+          position: absolute;
+          }
+          .derniere2 .boxes .boxe img{ /*icon de google */
+            width:50px;
+            height:50px;
+            margin-top:11px;
+            border-radius: 20px;
+            margin-left:5px;
+            position: absolute;
+          }
+          .derniere3 .boxes .boxe img{ /*icon de google */
+            width:50px;
+            height:50px;
+            margin-top:11px;
+            border-radius: 20px;
+            margin-left:5px;
+            position: absolute;
+          }
+          .derniere4 .boxes .boxe img{ /*icon de google */
+            width:50px;
+            height:50px;
+            margin-top:11px;
+            border-radius: 20px;
+            margin-left:5px;
+            position: absolute;
+          }
+          .derniere .boxes .tiret{
+            color: #3f3a3a;
+            margin-top:140px;
+            
+          }
+          .derniere2 .boxes .tiret{
+            color: #3f3a3a;
+            margin-top:140px;
+          }
+          .derniere4 .boxes .tiret{
+            color: #3f3a3a;
+            margin-top:140px;
+          }
+          .derniere3 .boxes .tiret{
+            color: #3f3a3a;
+            margin-top:140px;
+          }
+          
+          .derniere .boxes .contenuGoogle h1{ /*google inc*/
+            font-size:20px;
+            color:#0076F8;
+            margin-right:-65px;
+            white-space: nowrap;
+            margin-top:30px;
+            /*margin-left:50px;*/
+            margin-left:85px;
+            /*margin-right:-75px;*/
+            
+          }
+          .derniere2 .boxes .contenuGoogle h1{ /*google inc*/
+            font-size:20px;
+            color:#0076F8;
+            margin-right:-65px;
+            white-space: nowrap;
+            margin-top:30px;
+            /*margin-left:50px;*/
+            margin-left:85px;
+            /*margin-right:-75px;*/
+            
+          }
+          .derniere4 .boxes .contenuGoogle h1{ /*google inc*/
+            font-size:20px;
+            color:#0076F8;
+            margin-right:-65px;
+            white-space: nowrap;
+            margin-top:30px;
+            /*margin-left:50px;*/
+            margin-left:85px;
+            /*margin-right:-75px;*/
+            
+          }
+          .derniere3 .boxes .contenuGoogle h1{ /*google inc*/
+            font-size:20px;
+            color:#0076F8;
+            margin-right:-65px;
+            white-space: nowrap;
+            margin-top:30px;
+            /*margin-left:50px;*/
+            margin-left:85px;
+            /*margin-right:-75px;*/
+            
+          }
+          /*.boutton button{
+            /*font-size:25px;
+            background-color:#C3FFCD;
+            border-color: #C3FFCD;
+            color: #30B77F;
+          }*/
+          .derniere .boxes .contenuGoogle .fa-solid {
+          margin-bottom:-18px;
+          
+          color: #0076F8;
+          /*margin-right:25px;*/
+          
+          margin-left:120px;
+          
+          }
+          .derniere2 .boxes .contenuGoogle .fa-solid {
+            margin-top:20px;
+            
+            color: #0076F8;
+            /*margin-right:25px;*/
+            
+            margin-left:120px;
+            
+            }
+            .derniere4 .boxes .contenuGoogle .fa-solid {
+                margin-top:20px;
+                
+                color: #0076F8;
+                /*margin-right:25px;*/
+                
+                margin-left:120px;
+                
+                }
+            .derniere3 .boxes .contenuGoogle .fa-solid {
+                margin-top:20px;
+                
+                color: #0076F8;
+                /*margin-right:25px;*/
+                
+                margin-left:120px;
+                
+                }
+          .derniere .boxes .contenuGoogle {
+            display: flex;
+            align-items: center;
+            text-align: center;
+          
+          }
+          .derniere3 .boxes .contenuGoogle {
+            display: flex;
+            align-items: center;
+            text-align: center;
+          
+          }
+          .derniere4 .boxes .contenuGoogle {
+            display: flex;
+            align-items: center;
+            text-align: center;
+          
+          }
+          .derniere2 .boxes .contenuGoogle {
+            display: flex;
+            align-items: center;
+            text-align: center;
+          
+          }
+          .derniere3 .boxes .contenuGoogle {
+            display: flex;
+            align-items: center;
+            text-align: center;
+          
+          }
+          .derniere .boxes .metier h1{
+            font-size:18px;
+            margin-top:145px;
+            position:absolute;
+            padding-left:15px;
+           
+          }
+          .derniere4 .boxes .metier h1{
+            font-size:18px;
+            margin-top:145px;
+            position:absolute;
+            padding-left:15px;
+           
+          }
+          .derniere2 .boxes .metier h1{
+            font-size:18px;
+            margin-top:145px;
+            position:absolute;
+            padding-left:15px;
+           
+          }
+          .derniere3 .boxes .metier h1{
+            font-size:18px;
+            /*margin-top:145px;*/
+            position:absolute;
+            padding-left:15px;
+            margin-top:175px;
+            white-space: nowrap;
+           
+          }
+          .derniere .boxes .metier{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere2 .boxes .metier{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere3 .boxes .metier{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere4 .boxes .metier{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere .boxes .metier p{
+            font-size:10px;
+            margin-left:15px;
+            margin-top:210px;
+            position:absolute;
+            color:black;
+            font-size:18px;
+           
+          }
+          .derniere .boxes .metier p span{
+            color:gray;
+          }
+          .derniere2 .boxes .metier p{
+            font-size:10px;
+            margin-left:15px;
+            margin-top:210px;
+            position:absolute;
+            color:black;
+            font-size:18px;
+          }
+          .derniere4 .boxes .metier p{
+            font-size:10px;
+            margin-left:15px;
+            margin-top:210px;
+            position:absolute;
+            color:black;
+            font-size:18px;
+          }
+          .derniere3 .boxes .metier p{
+            font-size:10px;
+            margin-left:15px;
+            margin-top:280px;
+            position:absolute;
+            color:black;
+            font-size:18px;
+          }
+          .derniere2 .boxes .metier p span{
+            color:gray;
+          }
+          .derniere4 .boxes .metier p span{
+            color:gray;
+          }
+          .derniere3 .boxes .metier p span{
+            color:gray;
+          }
+          
+          .derniere .boxes .lieu{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere4 .boxes .lieu{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere2 .boxes .lieu{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere3 .boxes .lieu{
+            display: flex;
+            align-items: center;
+           
+          }
+          .derniere .boxes .lieu h1{
+            font-size:15px;
+            padding-top:15px;
+            padding-left:15px;
+            font-weight: 800px;
+          }
+          .derniere4 .boxes .lieu h1{
+            font-size:15px;
+            padding-top:15px;
+            padding-left:15px;
+            font-weight: 800px;
+          }
+          .derniere2 .boxes .lieu h1{
+            font-size:15px;
+            padding-top:15px;
+            padding-left:15px;
+          }
+          .derniere3 .boxes .lieu h1{
+            font-size:15px;
+            padding-top:15px;
+            padding-left:15px;
+          }
+          .derniere2 .boxes .lieu p{
+           padding-top:25px;
+          }
+          .derniere4 .boxes .lieu p{
+            padding-top:25px;
+           }
+          .derniere3 .boxes .lieu p{
+            padding-top:25px;
+           }
+          .derniere2 .boxes .lieu p{
+            padding-top:25px;
+          }
+          .derniere .boxes .lieu img{
+            width:20px;
+            height:20px;
+            margin-left:12px;
+            margin-top:4px;
+          }
+          .derniere4 .boxes .lieu img{
+            width:20px;
+            height:20px;
+            margin-left:12px;
+            margin-top:4px;
+          }
+          .derniere2 .boxes .lieu img{
+            width:20px;
+            height:20px;
+            margin-left:12px;
+            margin-top:4px;
+          }
+          .derniere3 .boxes .lieu img{
+            width:20px;
+            height:20px;
+            margin-left:12px;
+            margin-top:4px;
+          }
+          .derniere .boxes .lieu i{
+            margin-left:12px;
+            margin-top:4px;
+          }
+          .derniere4 .boxes .lieu i{
+            margin-left:12px;
+            margin-top:4px;
+          }
+          .derniere .boxes .lieu i{
+            margin-left:12px;
+            margin-top:4px;
+          }
+          .derniere .boxes .lieu button{
+          color: black;
+          background-color: white;
+          border-radius: 10px;
+          border-color: black;
+          margin-left:20px;
+          height:25px;
+          margin-top:8px;
+          }
+          
+          .derniere2 .boxes .lieu button{
+           background-color: red; 
+            color: white;
+            border-radius:10px;
+            border-color: red;
+            margin-left:20px;
+            height:25px;
+            margin-top:8px;
+          }
+          .derniere3 .boxes .lieu button{
+            background-color: red; 
+             color: white;
+             border-radius:10px;
+             border-color: red;
+             margin-left:20px;
+             height:25px;
+             margin-top:8px;
+           }
+           .derniere4 .boxes .lieu button{
+            background-color: #18FB57; 
+             color: white;
+             border-radius:10px;
+             border-color: #18FB57;
+             margin-left:20px;
+             height:25px;
+             margin-top:8px;
+           }
+          .derniere .bouton button{
+            background-color: blue;
+            white-space:nowrap;
+            border-color:blue;
+            border-radius:15px;
+            height:50px;
+            width:250px;
+            color: white;
+            font-size:20px;
+            font-weight: 900px;
+            margin-top:480px;
+            margin-left:-680px;
+          }
+          
+          .boxes .boutton button {
+            border-radius: 5px;
+            white-space: nowrap;
+            margin-left:-250px;
+            margin-top:60px;
+            position: absolute;
+            
+          }
+          .derniere2 .boutton button {
+            border-radius: 5px;
+            white-space: nowrap;
+            margin-left:-250px;
+            margin-top:60px;
+            position: absolute;
+            
+          }
+          .derniere4 .boutton button {
+            border-radius: 5px;
+            white-space: nowrap;
+            margin-left:-250px;
+            margin-top:60px;
+            position: absolute;
+            
+          }
+          .derniere3 .boutton button {
+            border-radius: 5px;
+            white-space: nowrap;
+            margin-left:-250px;
+            margin-top:60px;
+            position: absolute;
+            
+          }
+          .offres .offre  h1{
+            margin-top:-255px;
+            font-size: 1.5em;
+            white-space: nowrap;
+            position: absolute;
+            margin-left:-90px;}
+
+        .offres .offre p{
+             margin-top:-195px;
+             font-size:1.5em;
+             white-space: nowrap;
+             color: black;
+             margin-left:-90px;
+             position: absolute;
+             font-weight:600;
+
+        }    
+        .derniere2 .boxes .boxe p {
+            margin-top:-65px;
+            font-size:1.5em;
+            white-space: nowrap;
+            color: black;
+            margin-left:-5px;
+            position: absolute;
+            font-weight:600;
+
+
+        }
+        .derniere4 .boxes .boxe p {
+            margin-top:-65px;
+            font-size:1.5em;
+            white-space: nowrap;
+            color: black;
+            margin-left:-5px;
+            position: absolute;
+            font-weight:600;
+
+
+        }
+        .derniere3 .boxes .boxe p {
+            margin-top:-65px;
+            font-size:1.5em;
+            white-space: nowrap;
+            color: black;
+            margin-left:-5px;
+            position: absolute;
+            font-weight:600;
+
+
+        }
+            
+            .offres .derniere {
+                display: flex;
+                justify-content: center;
+                
+              }
+              
+              .offres{
+                padding: 200px;
+                /*position:absolute;
+                align-items: center;*/
+                background-color:white;
+                margin-left: 54px; 
+                /*margin-top:150px;*/
+                /*margin-bottom: 200px;*/
+                padding-right: 580px;
+                border-radius: 40px;
+                width:1200px;
+                /*height: 350px;*/
+                display: flex;
+                justify-content: space-between;
+                /*margin-top:2600px;*/
+                position:absolute;
+                margin-top:1400px;
+                box-sizing: border-box;
+                border: 500px;
+                margin-top:155px;
+                
+              }
+
+            /*responsive*/
+            @media only screen and (max-width: 768px) {
+              header {
+                padding: 10px;
+              }
+            
+              .navbar {
+                flex-wrap: wrap;
+              }
+            
+              .navbar li {
+                margin-bottom: 10px;
+              }
+            
+              .btn-Inscription {
+                margin-top: 0;
+              }
+            
+              .offres {
+                justify-content: center;
+              }
+            
+              .offres .boxes {
+                width: 90%;
+              }
+            
+              .offres .boxes .contenuGoogle h1 {
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: center;
+              }
+            }
+            
+           

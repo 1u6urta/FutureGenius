@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins" ,sans-serif;
+}
+body {
+    overflow-y: hidden;
+
+}
+.sec{
+    display:flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 50px 0 0 0;
+}
+.imgBox img{
+    width:600px;
+    margin-top:50px;
+}
+/*.contentBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */ 
+.formBox {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    margin: 50px 50px 0 50px;
+    border-radius: 30px;
+    width: 400px;
+    margin-left:10px;
+    z-index: 1;
+    background-color: white;
+    margin-bottom:86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 25px 15px 15px 50px;
+}
+.google {
+    display: flex;
+    align-items: center;
+    /*margin-left: 25px;*/
+    justify-content: space-around;
+}
+
+.google .lin {
+    font-size: 30pt;
+    margin-right: 25px;
+}
+.google button{
+    width:260px;
+    height:60px;
+    cursor: pointer;
+    margin-right:15px;
+    background-color: #CBBBFC; 
+    color: var(--txtColor);
+    font-weight: bold; 
+    border:0px ;
+    border-radius: 10px;
+}
+
+.formBox h1{
+    font-size:22px;
+    font-weight:200;
+    margin-bottom:5px;
+    /*margin-left: -90px;*/
+}
+.formBox h2{
+    font-weight:500;
+    margin-bottom:10px;
+    /*margin-right:120px;*/
+}
+.inputBox .primarybtn {
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    justify-self: center;
+    background-color: var(--buttonColor);
+    border-radius: 7px;
+    align-items: center;
+    border: var(--bgColor);
+    color: var(--bgColor);
+    padding: 5px 10px;
+    margin: 15px 100px;
+}
+.oublie p{
+    color: var(--buttonColor);
+    justify-self: center;
+    text-align: center;
+    margin: 10px 0;
+}
+.mt {
+    margin-top: 10px;
+} 
+.ml {
+    margin-left: var(--marginP);
+}
+.form .input {
+    width: 350px;
+    height: 40px;
+    margin-top: 5px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+.flex {
+    display: flex;
+}
+.form .formsec input  {
+    width: 160px;
+    margin-right: 20px;
+}
+.form .formsec select  {
+    width: 173px;
+    height: 41px;
+    margin-right: 20px;
+}
+.ml-80 {
+    margin: 0 80px;
+}
+.ml-40 {
+    margin: 0 40px;
+}
+.inputBx {
+    justify-content: center;
+}
+.inputBx a {
+    color: var(--buttonColor);
+}
+.itsform {
+    margin-top: 12px;
+}
+.itsform .num {
+    width: 80px;
+    height: 40px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    margin-right: 17px;
+}
+.itsform .input {
+    width: 245px;
+    height: 40px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+/*responsive*/
+@media(max-width: 760px){
+    section .imBox{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    section .contentBox{
+        width: 100%;
+        z-index: 1;}
+    section .contentBox .formBox{
+        
+        background-color: rgb(255 255 255/0.9);
+        padding: 40px;
+    }
+}
+.hidden {
+    display: none;
+}

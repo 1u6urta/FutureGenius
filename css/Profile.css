@@ -1,0 +1,251 @@
+:root  {
+    --bgColor : #ffffff;
+    --bgColorC : #FFF9F3;
+    --bgColorB : #E5F6FF;
+    --bgColorBG : #FCFAF8;
+    --bgColorG : #999999;
+    --bgColorGr : #DDDDDD;
+    --buttonColor :#9777FA;
+    --txtColor : #000000;
+    --shadow : #77777763;
+    --marginP : 50px; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.hors {
+    background-color: var(--bgColorB);
+    padding: 100px 50px;
+}
+.profile {
+    padding: 80px;
+    background-color: var(--bgColor);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-info {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+.pdp {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 125px;
+    margin-bottom: 25px;
+}
+.stars {
+    font-size: 20pt;
+}
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: var(--bgColorBG);
+    padding: 15px 15px;
+}
+.name {
+    display: flex;
+    align-items: center;
+    margin: 25px 10px;
+}
+.name p {
+    font-family: 'Poppins';
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+.name a {
+    font-size: 25pt;
+    display: flex;
+    align-items: center;
+}
+.name a i {
+    color: var(--txtColor);
+}
+.name .edit {
+    color: var(--buttonColor);
+    font-weight: 400;
+    margin: 0 5px;
+}
+
+.info {
+    display: flex;
+    font-size: 12pt;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.info i {
+    margin: 0 15px;
+}
+.info .infos {
+    font-weight: bold;
+}
+.info .details {
+    margin-right: 10px;
+}
+
+.tags {
+    margin: 25px 0;
+    display: flex;
+    align-items: baseline;
+}
+.tags .tags-details {
+    font-weight: bold;
+    font-size: 2em;
+}
+.tag {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.tag p {
+    padding: 5px 10px;
+    margin: 0 5px 15px 5px;
+    color: var(--txtColor);
+    background-color: var(--bgColorB);
+    border-radius: 15px;
+    align-items: center;
+}
+
+
+.cv-download {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    max-width: 200px;
+    cursor: pointer;
+    padding: 5px 10px ;
+    font-size: large;
+    color: var(--bgColor);
+    background-color: var(--buttonColor);
+    border-radius: 7px;
+    margin: 15px 0 25px 90px;
+}
+.cv-download i{
+    margin: 0 5px;
+}
+.cv-download input {
+    display: none;
+}
+.contact-biographie {
+    margin: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact {
+    padding: 15px 50px 15px 15px ;
+    margin-right: 50px;
+    height: 80vh;
+    border: 1px solid var(--txtColor);
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.contact-details   {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+.contact-info i {
+    margin: 15px;
+}
+.contact-info a {
+    color: var(--txtColor);
+}
+.mail {
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 150px;
+    padding: 5px 5px 0 15px;
+    margin: 15px 10px;
+    font-size: large;
+    color: var(--bgColor);
+    background-color: var(--buttonColor);
+    border-radius: 7px;
+}
+.biographie {
+    width: 760px;
+    padding: 15px 50px 15px 15px ;
+    border: var(--txtColor) 1px solid;
+    border-radius: 15px;
+}
+.biographie-details {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.biography {
+    margin: 15px 25px;
+    padding-bottom: 25px;
+    border-bottom: var(--txtColor) 2px solid;
+}
+
+.par  ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+.items {
+    margin: 5px 0 15px 0;
+}
+
+.items .btn {
+    display: flex;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 15px  20px;
+    align-items: center;
+    border-radius: 20px;
+    width: 190px;
+    border: var(--buttonColor) 2px solid;
+    color: var(--txtColor);
+    background-color: var(--bgColor);
+}
+.items > .btn p {
+    margin-left: 5px;
+    font-size: 10pt;
+}
+.items .active {
+    color: var(--bgColor);
+    background-color: var(--buttonColor);
+}
+.biographie .pdf-container {
+    display: none;
+    justify-content: space-around;
+}
+.pdfs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pdfContainer {
+    width: 150px;
+    margin: 40px;
+}
+canvas {
+    width: 150px;
+}
+.hidden {
+    display: none;
+}

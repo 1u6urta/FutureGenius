@@ -1,0 +1,4261 @@
+*{ margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'popping', sans-serif;
+  scroll-behavior: smooth;
+  }
+  
+  .bordure{
+    border:solid 3px;
+    border-left: -25px;
+    height:950px;
+    margin-right:20px;
+    border-right:-160px;
+    position: relative;
+    margin-left:30px;
+    border-top:-45px;
+    border-bottom: 5px solid black;
+    border-bottom-width: 100%;
+  }
+  
+  .profils{
+      display: 300px;
+      padding: 300px;
+      /*padding-right:270px;
+      padding-left:250px;*/
+      position:absolute;
+      /*height: 190px;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*padding-top: 180px;
+      padding-bottom: 100px;
+      /*margin-top: 200px;*/
+      background-color:white;
+      margin-left: 54px; 
+      /*margin-top: -450px;*/
+      margin-bottom: 200px;
+      padding-right: 580px;
+      border-radius: 40px;
+      /*width:950px;  */
+      margin-top:10px;
+  }
+  
+  .metiers .section_title {
+      margin-top:45px;
+      margin-left:155px;
+  }
+  
+  
+  .metiers .titre i.fa-sharp.fa-solid.fa-share-from-square {
+      margin-left:1150px;
+      margin-top:-25px;
+      position: absolute;
+  }
+  .metiers .candidats .candidat-button {
+     background-color:#F80095; 
+     border-color: #F80095;
+     color: white;
+     width:100px;
+     height:40px;
+     border-radius:15px;
+     margin-left:550px;
+     position: absolute;
+     margin-top:-40px;
+  } 
+  .metiers .candidats .candidat-button .count {
+      background-color: #0076F8;
+      width: 25px;
+      height:25px;
+      border-radius:10px;
+      
+    }
+  .profils .meilleur  {
+    border-radius: 10px;
+    padding-left: 5px;
+    height:100px;
+    /*width:450px;*/
+    width: 250px;
+    display: flex;
+    /*position: relative;*/
+    justify-content: center;
+    align-items: center;
+    margin-left:400px;
+    position: absolute;
+    
+   }
+  .infoss h2{
+      font-size:larger;
+      font-weight:200;
+      color:#777777;
+      margin-left:165px;
+      margin-top:12px;
+      position: absolute;
+      
+  }
+  .infoss i.fa-solid.fa-location-dot {
+      margin-left:150px;
+      margin-top:14px;
+      position: absolute;
+  }
+  .infoss h1{
+      font-weight:700;
+      font-size:large;
+      margin-left:340px;
+      margin-top:12px;
+      position: absolute;
+  }
+  .infoss h1 span {
+      color: #777777;
+  }
+  .infoss p span {
+      color: #777777;
+  }
+  .infoss p{
+      font-size: larger;
+      font-weight:600px;
+      margin-left:580px;
+      margin-top:15px;
+      position: absolute;
+      color: black;
+  }
+  .langages button {
+      margin-left:145px;
+      margin-right:-90px;
+      margin-top:55px;
+  }
+  .text2 p{
+      margin-top:25px;
+      margin-left:140px;
+      color: #777777;
+  }
+  .edit-button {
+      width:100px;
+      height:40px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #0076F8;
+      border-color:#0076F8;
+      color: #0076F8;
+      margin-left:1040px;
+      margin-top:5px;
+      background-color: white;
+  }
+  .text2 img {
+      width:70px;
+      height:50px;
+      margin-left:1150px;
+      position:absolute;
+      margin-top:-50px;
+  }
+  .edit-button i {
+     margin-left:5px;
+    }
+    .profils .meilleur .box{
+      /*margin-right:-25px;
+      margin-left:125px;*/
+      width: 280px;
+      border: 60px solid white; 
+      padding: 10px;
+      background-color: #fff;
+      height:450px;
+      border-radius: 15px;
+      padding-top:10px;
+      margin-top:15px;
+      /*margin-right:25px;*/
+      justify-content: space-between;
+      margin-left:105px;
+      margin-right:-90px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      
+    }
+  
+  
+  .meilleur .box .inbox{
+   position: center;
+   /*width: 100%;
+   height: 100px;*/
+   display: flex;
+   
+   
+  }
+  .bouton2 button {
+      display: inline-block;
+     
+      margin-top:375px;
+      margin-left:20px;
+  
+  }
+  .bouton2 {
+      display: flex;
+      margin-left:-140px;
+    }
+  
+  .meilleur .box .inbox img {
+    margin-top:20px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    /*display: block;*/
+    margin: 0 auto;
+    padding-top:2px;
+    border-radius: 100%;
+    height:145px;
+    width:145px;
+    
+  }
+  /*.profils .meilleur .box .inbox img{
+    
+    display: block;
+    margin: 0 auto;
+    padding-top:5px;
+    border-radius: 100%;
+    }*/
+  .profils .meilleur .box .Contact img{
+    width: 25px;
+    height:29.5px;
+    
+    padding-top:10px;
+    width: 20px;
+    
+    
+  }
+  
+  .profils .meilleur .box .Ã©toiles {
+    color: #FFD700;
+    margin-top:5px;
+    padding-left: 25px;
+  }
+  .profils .meilleur .box .reaction button{
+    color:#D9D9D9;
+    border-color:#D9D9D9;
+    /*margin-left: 5px;*/
+    /*margin-right:9.5px;
+    margin-left: -16px;*/ 
+    margin-right: 4px;
+  
+    
+    
+  }
+  
+  .profils .meilleur .box .reaction{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+  
+  .profils .meilleur .box .text p{
+    color:#000000;
+    padding-left:29px;
+  
+  }
+  
+  
+  .profils .meilleur .box .Contact button{   
+    color:#fff;
+    background-color: #000000;
+    border-radius: 0px;
+    padding-top:6.2px;
+    margin-left:6.5px;
+  
+  }  
+      
+          
+  .profils .meilleur .box .text h1{
+    padding-left:60px;
+  }
+  
+  
+  
+  .profils{
+      display: 300px;
+      padding: 300px;
+      /*padding-right:270px;
+      padding-left:250px;*/
+      position:absolute;
+      /*height: 190px;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*padding-top: 180px;
+      padding-bottom: 100px;
+      /*margin-top: 200px;*/
+      background-color:white;
+      margin-left: 54px; 
+      /*margin-top: -450px;*/
+      margin-bottom: 200px;
+      padding-right: 580px;
+      border-radius: 40px;
+      /*width:950px;  */
+      margin-top:10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*Partiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiie2 */
+  /*.bordure2{
+    border:solid 3px;
+    border-left: -25px;
+    height:800px;
+    margin-top:190px;
+    margin-right:20px;
+    border-right:-160px;
+    
+    margin-left:30px;
+    border-top:-45px;
+    border-bottom: 3px solid black;
+    border-bottom-width: 100%;
+  }*/
+  .bordure2 {
+    border: solid 6px;
+    border-left: -25px;
+    height: 800px;
+    margin-top: 190px;
+    margin-right: 20px;
+    border-right: -160px;
+    margin-left: 30px;
+    border-top: -45px;
+    border-bottom: none; /* Supprimez la bordure du bas existante */
+    position: relative;
+  }
+  
+  .bordure2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid black; /* Ajoutez la nouvelle bordure du bas */
+  }
+  
+  .profils2{
+      display: 300px;
+      padding: 300px;
+      /*padding-right:270px;
+      padding-left:250px;*/
+      position:absolute;
+      /*height: 190px;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*padding-top: 180px;
+      padding-bottom: 100px;
+      /*margin-top: 200px;*/
+      background-color:white;
+      margin-left: 54px; 
+      /*margin-top: -450px;*/
+      margin-bottom: 200px;
+      padding-right: 580px;
+      border-radius: 40px;
+      /*width:950px;  */
+      margin-top:10px;
+  }
+  
+  .metiers2 .section_title {
+      margin-top:35px;
+      margin-left:155px;
+      
+  }
+  
+  
+  .metiers2 .titre i.fa-sharp.fa-solid.fa-share-from-square {
+      margin-left:1150px;
+      margin-top:-25px;
+      position: absolute;
+  }
+  .metiers2 .candidats .candidat-button {
+     background-color:#F80095; 
+     border-color: #F80095;
+     color: white;
+     width:100px;
+     height:40px;
+     border-radius:15px;
+     margin-left:550px;
+     position: absolute;
+     margin-top:-40px;
+  } 
+  .metiers2 .candidats .candidat-button .count {
+      background-color: #0076F8;
+      width: 25px;
+      height:25px;
+      border-radius:10px;
+      
+    }
+  .profils2 .meilleur2  {
+    border-radius: 10px;
+    padding-left: 5px;
+    height:100px;
+    /*width:450px;*/
+    width: 250px;
+    display: flex;
+    /*position: relative;*/
+    justify-content: center;
+    align-items: center;
+    margin-left:400px;
+    position: absolute;
+    
+   }
+  .infoss2 h2{
+      font-size:larger;
+      font-weight:200;
+      color:#777777;
+      margin-left:165px;
+      margin-top:12px;
+      position: absolute;
+      
+  }
+  .infoss2 i.fa-solid.fa-location-dot {
+      margin-left:150px;
+      margin-top:14px;
+      position: absolute;
+  }
+  .infoss2 h1{
+      font-weight:700;
+      font-size:large;
+      margin-left:340px;
+      margin-top:8px;
+      position: absolute;
+  }
+  .infoss2 h1 span {
+      color: #777777;
+  }
+  .infoss2 p span {
+      color: #777777;
+  }
+  .infoss2 p{
+      font-size: larger;
+      font-weight:600px;
+      margin-left:580px;
+      margin-top:15px;
+      position: absolute;
+      color: black;
+  }
+  .langages2 button {
+      margin-left:145px;
+      margin-right:-90px;
+      margin-top:55px;
+  }
+  .text4 p{
+      margin-top:25px;
+      margin-left:140px;
+      color: #777777;
+  }
+  .edit-button2 {
+      width:100px;
+      height:40px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #0076F8;
+      border-color:#0076F8;
+      color: #0076F8;
+      margin-left:1040px;
+      margin-top:-45px;
+      background-color: white;
+  }
+  .text4 img {
+      width:70px;
+      height:50px;
+      margin-left:1150px;
+      position:absolute;
+      margin-top:-50px;
+  }
+  .edit-button2 i {
+     margin-left:5px;
+    }
+  .profils2 .meilleur2 .box{
+      /*margin-right:-25px;
+      margin-left:125px;*/
+      width: 280px;
+      border: 60px solid white; 
+      padding: 10px;
+      background-color: #fff;
+      height:430px;
+      border-radius: 15px;
+      padding-top:10px;
+      margin-top:5px;
+      /*margin-right:25px;*/
+      justify-content: space-between;
+      margin-left:105px;
+      margin-right:-90px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      margin-bottom:55px;
+      
+    }
+  
+  
+  .meilleur2 .box .inbox{
+   position: center;
+   /*width: 100%;
+   height: 100px;*/
+   display: flex;
+   
+   
+  }
+  .bouton4 button {
+      display: inline-block;
+     
+      margin-top:375px;
+      margin-left:20px;
+  
+  }
+  .bouton button {
+    
+      background-color: #0076F8;
+      color: white;
+      text-align: center;
+      border-color:#0076F8;
+      margin-left:30px;
+      border-radius:5px;
+    
+  }
+  .bouton4 {
+      display: flex;
+      margin-left:-140px;
+      margin-top:-65px;
+    }
+    .bouton5 button {
+      background-color: #0076F8;
+      color: white;
+      text-align: center;
+      border-color:#0076F8;
+      margin-left:30px;
+      border-radius:5px;
+      margin-top:5px ;
+    }
+  .meilleur2 .box .inbox img {
+    margin-top:20px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    /*display: block;*/
+    margin: 0 auto;
+    padding-top:2px;
+    border-radius: 100%;
+    height:145px;
+    width:145px;
+    
+  }
+  /*.profils .meilleur .box .inbox img{
+    
+    display: block;
+    margin: 0 auto;
+    padding-top:5px;
+    border-radius: 100%;
+    }*/
+  .profils2 .meilleur2 .box .Contact img{
+    width: 25px;
+    height:29.5px;
+    
+    padding-top:10px;
+    width: 20px;
+    
+    
+  }
+  
+  .profils2 .meilleur2 .box .Ã©toiles {
+    color: #FFD700;
+    margin-top:5px;
+    padding-left: 25px;
+  }
+  .profils2 .meilleur2 .box .reaction button{
+    color:#D9D9D9;
+    border-color:#D9D9D9;
+    /*margin-left: 5px;*/
+    /*margin-right:9.5px;
+    margin-left: -16px;*/ 
+    margin-right: 4px;
+  
+    
+    
+  }
+  
+  .profils2 .meilleur2 .box .reaction{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+  
+  .profils2 .meilleur2 .box .text p{
+    color:#000000;
+    padding-left:29px;
+  
+  }
+  
+  
+  .profils2 .meilleur2 .box .Contact button{   
+    color:#fff;
+    background-color: #000000;
+    border-radius: 0px;
+    padding-top:6.2px;
+    margin-left:6.5px;
+  
+  }  
+      
+          
+  .profils2 .meilleur2 .box .text h1{
+    padding-left:60px;
+  }
+  
+  
+  
+  .profils2{
+      display: 300px;
+      padding: 300px;
+      /*padding-right:270px;
+      padding-left:250px;*/
+      position:absolute;
+      /*height: 190px;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*padding-top: 180px;
+      padding-bottom: 100px;
+      /*margin-top: 200px;*/
+      background-color:white;
+      margin-left: 54px; 
+      /*margin-top: -450px;*/
+      margin-bottom: 200px;
+      padding-right: 580px;
+      border-radius: 40px;
+      /*width:950px;  */
+      margin-top:10px;
+  }
+  /* responsive*/
+  @media (max-width: 768px) {
+    .bordure {
+      flex-direction: column;
+    }
+  
+    .metiers .titre {
+      text-align: center;
+    }
+  
+    .metiers .infoss {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .langages {
+      justify-content: center;
+    }
+  
+    .text2 {
+      text-align: center;
+    }
+  
+    .text2 p {
+      margin-bottom: 10px;
+    }
+  
+    .profils {
+      margin-top: 30px;
+    }
+  }
+  
+  /* Partie 2 */
+  @media (max-width: 768px) {
+    .meilleur {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .meilleur .text {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .meilleur .reaction {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .meilleur .Contact {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  
+    .meilleur .Contact img {
+      margin-left: 5px;
+    }
+  
+    .meilleur .Ã©toiles {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .meilleur .bouton {
+      text-align: center;
+    }
+  
+    .bouton2 {
+      text-align: center;
+    }
+  }*{ margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'popping', sans-serif;
+scroll-behavior: smooth;
+}
+
+.bordure{
+  border:solid 3px;
+  border-left: -25px;
+  height:950px;
+  margin-right:20px;
+  border-right:-160px;
+  position: relative;
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 5px solid black;
+  border-bottom-width: 100%;
+}
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers .section_title {
+    margin-top:45px;
+    margin-left:155px;
+}
+
+
+.metiers .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils .meilleur  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:12px;
+    position: absolute;
+}
+.infoss h1 span {
+    color: #777777;
+}
+.infoss p span {
+    color: #777777;
+}
+.infoss p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text2 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:5px;
+    background-color: white;
+}
+.text2 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button i {
+   margin-left:5px;
+  }
+  .profils .meilleur .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:450px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:15px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    
+  }
+
+
+.meilleur .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton2 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton2 {
+    display: flex;
+    margin-left:-140px;
+  }
+
+.meilleur .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils .meilleur .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils .meilleur .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils .meilleur .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils .meilleur .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils .meilleur .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils .meilleur .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils .meilleur .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Partiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiie2 */
+/*.bordure2{
+  border:solid 3px;
+  border-left: -25px;
+  height:800px;
+  margin-top:190px;
+  margin-right:20px;
+  border-right:-160px;
+  
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 3px solid black;
+  border-bottom-width: 100%;
+}*/
+.bordure2 {
+  border: solid 6px;
+  border-left: -25px;
+  height: 800px;
+  margin-top: 190px;
+  margin-right: 20px;
+  border-right: -160px;
+  margin-left: 30px;
+  border-top: -45px;
+  border-bottom: none; /* Supprimez la bordure du bas existante */
+  position: relative;
+}
+
+.bordure2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid black; /* Ajoutez la nouvelle bordure du bas */
+}
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers2 .section_title {
+    margin-top:35px;
+    margin-left:155px;
+    
+}
+
+
+.metiers2 .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers2 .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers2 .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils2 .meilleur2  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss2 h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss2 i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss2 h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:8px;
+    position: absolute;
+}
+.infoss2 h1 span {
+    color: #777777;
+}
+.infoss2 p span {
+    color: #777777;
+}
+.infoss2 p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages2 button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text4 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button2 {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:-45px;
+    background-color: white;
+}
+.text4 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button2 i {
+   margin-left:5px;
+  }
+.profils2 .meilleur2 .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:430px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:5px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom:55px;
+    
+  }
+
+
+.meilleur2 .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton4 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton button {
+  
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+  
+}
+.bouton4 {
+    display: flex;
+    margin-left:-140px;
+    margin-top:-65px;
+  }
+  .bouton5 button {
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+    margin-top:5px ;
+  }
+.meilleur2 .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils2 .meilleur2 .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils2 .meilleur2 .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils2 .meilleur2 .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils2 .meilleur2 .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils2 .meilleur2 .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils2 .meilleur2 .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils2 .meilleur2 .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+/* responsive*/
+@media (max-width: 768px) {
+  .bordure {
+    flex-direction: column;
+  }
+
+  .metiers .titre {
+    text-align: center;
+  }
+
+  .metiers .infoss {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .langages {
+    justify-content: center;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text2 p {
+    margin-bottom: 10px;
+  }
+
+  .profils {
+    margin-top: 30px;
+  }
+}
+
+/* Partie 2 */
+@media (max-width: 768px) {
+  .meilleur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .meilleur .text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .reaction {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact img {
+    margin-left: 5px;
+  }
+
+  .meilleur .Ã©toiles {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .bouton {
+    text-align: center;
+  }
+
+  .bouton2 {
+    text-align: center;
+  }
+}*{ margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'popping', sans-serif;
+scroll-behavior: smooth;
+}
+
+.bordure{
+  border:solid 3px;
+  border-left: -25px;
+  height:950px;
+  margin-right:20px;
+  border-right:-160px;
+  position: relative;
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 5px solid black;
+  border-bottom-width: 100%;
+}
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers .section_title {
+    margin-top:45px;
+    margin-left:155px;
+}
+
+
+.metiers .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils .meilleur  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:12px;
+    position: absolute;
+}
+.infoss h1 span {
+    color: #777777;
+}
+.infoss p span {
+    color: #777777;
+}
+.infoss p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text2 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:5px;
+    background-color: white;
+}
+.text2 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button i {
+   margin-left:5px;
+  }
+  .profils .meilleur .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:450px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:15px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    
+  }
+
+
+.meilleur .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton2 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton2 {
+    display: flex;
+    margin-left:-140px;
+  }
+
+.meilleur .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils .meilleur .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils .meilleur .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils .meilleur .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils .meilleur .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils .meilleur .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils .meilleur .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils .meilleur .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Partiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiie2 */
+/*.bordure2{
+  border:solid 3px;
+  border-left: -25px;
+  height:800px;
+  margin-top:190px;
+  margin-right:20px;
+  border-right:-160px;
+  
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 3px solid black;
+  border-bottom-width: 100%;
+}*/
+.bordure2 {
+  border: solid 6px;
+  border-left: -25px;
+  height: 800px;
+  margin-top: 190px;
+  margin-right: 20px;
+  border-right: -160px;
+  margin-left: 30px;
+  border-top: -45px;
+  border-bottom: none; /* Supprimez la bordure du bas existante */
+  position: relative;
+}
+
+.bordure2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid black; /* Ajoutez la nouvelle bordure du bas */
+}
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers2 .section_title {
+    margin-top:35px;
+    margin-left:155px;
+    
+}
+
+
+.metiers2 .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers2 .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers2 .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils2 .meilleur2  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss2 h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss2 i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss2 h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:8px;
+    position: absolute;
+}
+.infoss2 h1 span {
+    color: #777777;
+}
+.infoss2 p span {
+    color: #777777;
+}
+.infoss2 p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages2 button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text4 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button2 {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:-45px;
+    background-color: white;
+}
+.text4 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button2 i {
+   margin-left:5px;
+  }
+.profils2 .meilleur2 .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:430px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:5px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom:55px;
+    
+  }
+
+
+.meilleur2 .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton4 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton button {
+  
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+  
+}
+.bouton4 {
+    display: flex;
+    margin-left:-140px;
+    margin-top:-65px;
+  }
+  .bouton5 button {
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+    margin-top:5px ;
+  }
+.meilleur2 .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils2 .meilleur2 .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils2 .meilleur2 .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils2 .meilleur2 .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils2 .meilleur2 .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils2 .meilleur2 .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils2 .meilleur2 .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils2 .meilleur2 .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+/* responsive*/
+@media (max-width: 768px) {
+  .bordure {
+    flex-direction: column;
+  }
+
+  .metiers .titre {
+    text-align: center;
+  }
+
+  .metiers .infoss {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .langages {
+    justify-content: center;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text2 p {
+    margin-bottom: 10px;
+  }
+
+  .profils {
+    margin-top: 30px;
+  }
+}
+
+/* Partie 2 */
+@media (max-width: 768px) {
+  .meilleur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .meilleur .text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .reaction {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact img {
+    margin-left: 5px;
+  }
+
+  .meilleur .Ã©toiles {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .bouton {
+    text-align: center;
+  }
+
+  .bouton2 {
+    text-align: center;
+  }
+}*{ margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'popping', sans-serif;
+scroll-behavior: smooth;
+}
+
+.bordure{
+  border:solid 3px;
+  border-left: -25px;
+  height:950px;
+  margin-right:20px;
+  border-right:-160px;
+  position: relative;
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 5px solid black;
+  border-bottom-width: 100%;
+}
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers .section_title {
+    margin-top:45px;
+    margin-left:155px;
+}
+
+
+.metiers .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils .meilleur  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:12px;
+    position: absolute;
+}
+.infoss h1 span {
+    color: #777777;
+}
+.infoss p span {
+    color: #777777;
+}
+.infoss p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text2 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:5px;
+    background-color: white;
+}
+.text2 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button i {
+   margin-left:5px;
+  }
+  .profils .meilleur .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:450px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:15px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    
+  }
+
+
+.meilleur .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton2 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton2 {
+    display: flex;
+    margin-left:-140px;
+  }
+
+.meilleur .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils .meilleur .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils .meilleur .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils .meilleur .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils .meilleur .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils .meilleur .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils .meilleur .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils .meilleur .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Partiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiie2 */
+/*.bordure2{
+  border:solid 3px;
+  border-left: -25px;
+  height:800px;
+  margin-top:190px;
+  margin-right:20px;
+  border-right:-160px;
+  
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 3px solid black;
+  border-bottom-width: 100%;
+}*/
+.bordure2 {
+  border: solid 6px;
+  border-left: -25px;
+  height: 800px;
+  margin-top: 190px;
+  margin-right: 20px;
+  border-right: -160px;
+  margin-left: 30px;
+  border-top: -45px;
+  border-bottom: none; /* Supprimez la bordure du bas existante */
+  position: relative;
+}
+
+.bordure2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid black; /* Ajoutez la nouvelle bordure du bas */
+}
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers2 .section_title {
+    margin-top:35px;
+    margin-left:155px;
+    
+}
+
+
+.metiers2 .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers2 .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers2 .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils2 .meilleur2  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss2 h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss2 i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss2 h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:8px;
+    position: absolute;
+}
+.infoss2 h1 span {
+    color: #777777;
+}
+.infoss2 p span {
+    color: #777777;
+}
+.infoss2 p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages2 button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text4 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button2 {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:-45px;
+    background-color: white;
+}
+.text4 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button2 i {
+   margin-left:5px;
+  }
+.profils2 .meilleur2 .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:430px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:5px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom:55px;
+    
+  }
+
+
+.meilleur2 .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton4 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton button {
+  
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+  
+}
+.bouton4 {
+    display: flex;
+    margin-left:-140px;
+    margin-top:-65px;
+  }
+  .bouton5 button {
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+    margin-top:5px ;
+  }
+.meilleur2 .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils2 .meilleur2 .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils2 .meilleur2 .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils2 .meilleur2 .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils2 .meilleur2 .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils2 .meilleur2 .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils2 .meilleur2 .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils2 .meilleur2 .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+/* responsive*/
+@media (max-width: 768px) {
+  .bordure {
+    flex-direction: column;
+  }
+
+  .metiers .titre {
+    text-align: center;
+  }
+
+  .metiers .infoss {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .langages {
+    justify-content: center;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text2 p {
+    margin-bottom: 10px;
+  }
+
+  .profils {
+    margin-top: 30px;
+  }
+}
+
+/* Partie 2 */
+@media (max-width: 768px) {
+  .meilleur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .meilleur .text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .reaction {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact img {
+    margin-left: 5px;
+  }
+
+  .meilleur .Ã©toiles {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .bouton {
+    text-align: center;
+  }
+
+  .bouton2 {
+    text-align: center;
+  }
+}*{ margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'popping', sans-serif;
+scroll-behavior: smooth;
+}
+
+.bordure{
+  border:solid 3px;
+  border-left: -25px;
+  height:950px;
+  margin-right:20px;
+  border-right:-160px;
+  position: relative;
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 5px solid black;
+  border-bottom-width: 100%;
+}
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers .section_title {
+    margin-top:45px;
+    margin-left:155px;
+}
+
+
+.metiers .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils .meilleur  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:12px;
+    position: absolute;
+}
+.infoss h1 span {
+    color: #777777;
+}
+.infoss p span {
+    color: #777777;
+}
+.infoss p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text2 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:5px;
+    background-color: white;
+}
+.text2 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button i {
+   margin-left:5px;
+  }
+  .profils .meilleur .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:450px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:15px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    
+  }
+
+
+.meilleur .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton2 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton2 {
+    display: flex;
+    margin-left:-140px;
+  }
+
+.meilleur .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils .meilleur .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils .meilleur .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils .meilleur .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils .meilleur .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils .meilleur .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils .meilleur .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils .meilleur .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Partiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiie2 */
+/*.bordure2{
+  border:solid 3px;
+  border-left: -25px;
+  height:800px;
+  margin-top:190px;
+  margin-right:20px;
+  border-right:-160px;
+  
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 3px solid black;
+  border-bottom-width: 100%;
+}*/
+.bordure2 {
+  border: solid 6px;
+  border-left: -25px;
+  height: 800px;
+  margin-top: 190px;
+  margin-right: 20px;
+  border-right: -160px;
+  margin-left: 30px;
+  border-top: -45px;
+  border-bottom: none; /* Supprimez la bordure du bas existante */
+  position: relative;
+}
+
+.bordure2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid black; /* Ajoutez la nouvelle bordure du bas */
+}
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers2 .section_title {
+    margin-top:35px;
+    margin-left:155px;
+    
+}
+
+
+.metiers2 .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers2 .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers2 .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils2 .meilleur2  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss2 h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss2 i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss2 h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:8px;
+    position: absolute;
+}
+.infoss2 h1 span {
+    color: #777777;
+}
+.infoss2 p span {
+    color: #777777;
+}
+.infoss2 p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages2 button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text4 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button2 {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:-45px;
+    background-color: white;
+}
+.text4 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button2 i {
+   margin-left:5px;
+  }
+.profils2 .meilleur2 .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:430px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:5px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom:55px;
+    
+  }
+
+
+.meilleur2 .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton4 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton button {
+  
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+  
+}
+.bouton4 {
+    display: flex;
+    margin-left:-140px;
+    margin-top:-65px;
+  }
+  .bouton5 button {
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+    margin-top:5px ;
+  }
+.meilleur2 .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils2 .meilleur2 .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils2 .meilleur2 .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils2 .meilleur2 .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils2 .meilleur2 .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils2 .meilleur2 .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils2 .meilleur2 .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils2 .meilleur2 .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+/* responsive*/
+@media (max-width: 768px) {
+  .bordure {
+    flex-direction: column;
+  }
+
+  .metiers .titre {
+    text-align: center;
+  }
+
+  .metiers .infoss {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .langages {
+    justify-content: center;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text2 p {
+    margin-bottom: 10px;
+  }
+
+  .profils {
+    margin-top: 30px;
+  }
+}
+
+/* Partie 2 */
+@media (max-width: 768px) {
+  .meilleur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .meilleur .text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .reaction {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact img {
+    margin-left: 5px;
+  }
+
+  .meilleur .Ã©toiles {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .bouton {
+    text-align: center;
+  }
+
+  .bouton2 {
+    text-align: center;
+  }
+}*{ margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'popping', sans-serif;
+scroll-behavior: smooth;
+}
+
+.bordure{
+  border:solid 3px;
+  border-left: -25px;
+  height:950px;
+  margin-right:20px;
+  border-right:-160px;
+  position: relative;
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 5px solid black;
+  border-bottom-width: 100%;
+}
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers .section_title {
+    margin-top:45px;
+    margin-left:155px;
+}
+
+
+.metiers .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils .meilleur  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:12px;
+    position: absolute;
+}
+.infoss h1 span {
+    color: #777777;
+}
+.infoss p span {
+    color: #777777;
+}
+.infoss p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text2 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:5px;
+    background-color: white;
+}
+.text2 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button i {
+   margin-left:5px;
+  }
+  .profils .meilleur .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:450px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:15px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    
+  }
+
+
+.meilleur .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton2 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton2 {
+    display: flex;
+    margin-left:-140px;
+  }
+
+.meilleur .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils .meilleur .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils .meilleur .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils .meilleur .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils .meilleur .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils .meilleur .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils .meilleur .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils .meilleur .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Partiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiie2 */
+/*.bordure2{
+  border:solid 3px;
+  border-left: -25px;
+  height:800px;
+  margin-top:190px;
+  margin-right:20px;
+  border-right:-160px;
+  
+  margin-left:30px;
+  border-top:-45px;
+  border-bottom: 3px solid black;
+  border-bottom-width: 100%;
+}*/
+.bordure2 {
+  border: solid 6px;
+  border-left: -25px;
+  height: 800px;
+  margin-top: 190px;
+  margin-right: 20px;
+  border-right: -160px;
+  margin-left: 30px;
+  border-top: -45px;
+  border-bottom: none; /* Supprimez la bordure du bas existante */
+  position: relative;
+}
+
+.bordure2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid black; /* Ajoutez la nouvelle bordure du bas */
+}
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+
+.metiers2 .section_title {
+    margin-top:35px;
+    margin-left:155px;
+    
+}
+
+
+.metiers2 .titre i.fa-sharp.fa-solid.fa-share-from-square {
+    margin-left:1150px;
+    margin-top:-25px;
+    position: absolute;
+}
+.metiers2 .candidats .candidat-button {
+   background-color:#F80095; 
+   border-color: #F80095;
+   color: white;
+   width:100px;
+   height:40px;
+   border-radius:15px;
+   margin-left:550px;
+   position: absolute;
+   margin-top:-40px;
+} 
+.metiers2 .candidats .candidat-button .count {
+    background-color: #0076F8;
+    width: 25px;
+    height:25px;
+    border-radius:10px;
+    
+  }
+.profils2 .meilleur2  {
+  border-radius: 10px;
+  padding-left: 5px;
+  height:100px;
+  /*width:450px;*/
+  width: 250px;
+  display: flex;
+  /*position: relative;*/
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+  position: absolute;
+  
+ }
+.infoss2 h2{
+    font-size:larger;
+    font-weight:200;
+    color:#777777;
+    margin-left:165px;
+    margin-top:12px;
+    position: absolute;
+    
+}
+.infoss2 i.fa-solid.fa-location-dot {
+    margin-left:150px;
+    margin-top:14px;
+    position: absolute;
+}
+.infoss2 h1{
+    font-weight:700;
+    font-size:large;
+    margin-left:340px;
+    margin-top:8px;
+    position: absolute;
+}
+.infoss2 h1 span {
+    color: #777777;
+}
+.infoss2 p span {
+    color: #777777;
+}
+.infoss2 p{
+    font-size: larger;
+    font-weight:600px;
+    margin-left:580px;
+    margin-top:15px;
+    position: absolute;
+    color: black;
+}
+.langages2 button {
+    margin-left:145px;
+    margin-right:-90px;
+    margin-top:55px;
+}
+.text4 p{
+    margin-top:25px;
+    margin-left:140px;
+    color: #777777;
+}
+.edit-button2 {
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0076F8;
+    border-color:#0076F8;
+    color: #0076F8;
+    margin-left:1040px;
+    margin-top:-45px;
+    background-color: white;
+}
+.text4 img {
+    width:70px;
+    height:50px;
+    margin-left:1150px;
+    position:absolute;
+    margin-top:-50px;
+}
+.edit-button2 i {
+   margin-left:5px;
+  }
+.profils2 .meilleur2 .box{
+    /*margin-right:-25px;
+    margin-left:125px;*/
+    width: 280px;
+    border: 60px solid white; 
+    padding: 10px;
+    background-color: #fff;
+    height:430px;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-top:5px;
+    /*margin-right:25px;*/
+    justify-content: space-between;
+    margin-left:105px;
+    margin-right:-90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom:55px;
+    
+  }
+
+
+.meilleur2 .box .inbox{
+ position: center;
+ /*width: 100%;
+ height: 100px;*/
+ display: flex;
+ 
+ 
+}
+.bouton4 button {
+    display: inline-block;
+   
+    margin-top:375px;
+    margin-left:20px;
+
+}
+.bouton button {
+  
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+  
+}
+.bouton4 {
+    display: flex;
+    margin-left:-140px;
+    margin-top:-65px;
+  }
+  .bouton5 button {
+    background-color: #0076F8;
+    color: white;
+    text-align: center;
+    border-color:#0076F8;
+    margin-left:30px;
+    border-radius:5px;
+    margin-top:5px ;
+  }
+.meilleur2 .box .inbox img {
+  margin-top:20px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  /*display: block;*/
+  margin: 0 auto;
+  padding-top:2px;
+  border-radius: 100%;
+  height:145px;
+  width:145px;
+  
+}
+/*.profils .meilleur .box .inbox img{
+  
+  display: block;
+  margin: 0 auto;
+  padding-top:5px;
+  border-radius: 100%;
+  }*/
+.profils2 .meilleur2 .box .Contact img{
+  width: 25px;
+  height:29.5px;
+  
+  padding-top:10px;
+  width: 20px;
+  
+  
+}
+
+.profils2 .meilleur2 .box .Ã©toiles {
+  color: #FFD700;
+  margin-top:5px;
+  padding-left: 25px;
+}
+.profils2 .meilleur2 .box .reaction button{
+  color:#D9D9D9;
+  border-color:#D9D9D9;
+  /*margin-left: 5px;*/
+  /*margin-right:9.5px;
+  margin-left: -16px;*/ 
+  margin-right: 4px;
+
+  
+  
+}
+
+.profils2 .meilleur2 .box .reaction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.profils2 .meilleur2 .box .text p{
+  color:#000000;
+  padding-left:29px;
+
+}
+
+
+.profils2 .meilleur2 .box .Contact button{   
+  color:#fff;
+  background-color: #000000;
+  border-radius: 0px;
+  padding-top:6.2px;
+  margin-left:6.5px;
+
+}  
+    
+        
+.profils2 .meilleur2 .box .text h1{
+  padding-left:60px;
+}
+
+
+
+.profils2{
+    display: 300px;
+    padding: 300px;
+    /*padding-right:270px;
+    padding-left:250px;*/
+    position:absolute;
+    /*height: 190px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 180px;
+    padding-bottom: 100px;
+    /*margin-top: 200px;*/
+    background-color:white;
+    margin-left: 54px; 
+    /*margin-top: -450px;*/
+    margin-bottom: 200px;
+    padding-right: 580px;
+    border-radius: 40px;
+    /*width:950px;  */
+    margin-top:10px;
+}
+/* responsive*/
+@media (max-width: 768px) {
+  .bordure {
+    flex-direction: column;
+  }
+
+  .metiers .titre {
+    text-align: center;
+  }
+
+  .metiers .infoss {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .langages {
+    justify-content: center;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text2 p {
+    margin-bottom: 10px;
+  }
+
+  .profils {
+    margin-top: 30px;
+  }
+}
+
+/* Partie 2 */
+@media (max-width: 768px) {
+  .meilleur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .meilleur .text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .reaction {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .Contact img {
+    margin-left: 5px;
+  }
+
+  .meilleur .Ã©toiles {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .meilleur .bouton {
+    text-align: center;
+  }
+
+  .bouton2 {
+    text-align: center;
+  }
+}

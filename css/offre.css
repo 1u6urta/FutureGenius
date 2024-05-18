@@ -1,0 +1,826 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'popping', sans-serif;
+    scroll-behavior: smooth;
+    }
+section#emplois{
+    /*padding: 300px;*/
+    padding-right: 50px;
+    width:1050px;
+    position:absolute;
+    /*height: 700px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 5px;*/
+    /*padding-bottom: 100px;*/
+    /*margin-top: 200px;*/
+    background-color:#E5F6FF;
+    margin-right:25px;
+    margin-left:90px;
+    margin-top:90px;
+    margin-bottom:420px;
+    height:200px;
+    border-radius:15px;
+}
+
+label[for="jobs"]{
+  display: block;
+  font-weight:700;
+  font-size: larger;
+
+}
+.Jobs select{
+  width:270px;
+  height:40px;
+  border-radius:5px;
+  border-color:black;
+  
+
+}
+
+.emplois .emploi{
+    display: flex;
+    position: relative;
+    
+}  
+
+.emplois .emploi a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 900;
+    padding-top: 30px; 
+    width:1800px;}
+.emplois .emploi li{
+  list-style: none;
+}    
+
+
+.emplois .emploi img{
+    height: 370px;
+    width: 300px;
+    position: absolute;
+    float: right;
+    border-radius: 70px;
+    padding-left: 20px;
+    padding-bottom:30px;
+    right: 10px;
+    margin-right: -650px;
+    margin-top: -250px; 
+}
+
+ul.emploi  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    position: absolute;
+    
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top: 20px;
+    height: 120px;
+    width:1300px;
+  }
+  
+ul.emploi li {
+    
+    border-radius: 20px;
+    padding-left:10px;
+    
+}
+  
+ul.emploi li .input-icon {
+    position: relative;
+    color:#A9A9A9;
+    
+}
+  
+ul.emploi li input[type="text"] {
+    padding-left: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #D3D3D3 ;
+ 
+}
+  
+ul.emploi li .input-icon i {
+    position: absolute;
+    top: 77%;
+    left: 5px;
+    transform: translateY(-50%);
+    
+}
+ul.emploi li button {
+    background-color: #9777FA;
+    color: #fff;
+    border-bottom: #9777FA;
+    padding: 10px;
+    margin-left:65px;
+    border-radius: 5px;
+    width:110px;
+    border-color:#9777FA;
+  }
+  
+ul.gauche li:nth-child(2) a i:nth-child(2) {
+   color: black;
+   
+}
+  
+.navbar li:nth-child(2) i {
+   color: black;
+  }
+.offres{
+    padding: 180px;
+    
+    background-color:white;
+    margin-left: 354px; 
+    /*margin-top:150px;*/
+    /*margin-bottom: 200px;*/
+    padding-right: 580px;
+    border-radius: 40px;
+    width:1000px;
+    /*height: 350px;*/
+    display: flex;
+    justify-content: space-between;
+    /*margin-top:2600px;*/
+    position:absolute;
+    margin-top:350px;
+    box-sizing: border-box;
+    border: 500px;    
+}  
+.filtres{
+    padding: 10px;
+    background-color:#E5F6FF;
+    margin-left: 50px; 
+    padding-right: 80px;
+    border-radius: 40px;
+    width:400px;
+    height:800px;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    margin-top:370px;
+    box-sizing: border-box;
+    border: 5px;    
+}  
+.filtres .filtre h1{
+    margin-top:-50px;
+    font-size: 1.5em;
+    white-space: nowrap;
+    position: absolute;
+    margin-left:5px;
+    color:black;
+}
+.Lieux h1{
+    margin-top:20px;
+}
+ul.Region input[type="text"] {
+    height:45px;
+    width:300px;
+    border-radius:15px;
+    border-color: grey;
+}
+input[type="text"][placeholder="Région."] {
+    padding-left:12px;
+}
+ul.Region p{
+    margin-top:5px;
+    position: absolute;
+}
+h2{
+    margin-top:45px;
+    font-size:larger;
+    color: black;
+    
+}
+.Salaire {
+    display: flex;
+    align-items: center; /* Alignement vertical au centre si nécessaire */
+    margin-top:20px;
+}
+.Salaire h1,
+.Salaire .bouton,
+.Salaire p {
+      margin: 0; /* Supprimer les marges par défaut */
+}
+.Salaire p{
+    font-weight:1000px;
+    color: black;
+    padding-left:5px;
+    padding-right:5px;
+}
+.Salaire .bouton button{
+  background-color: white;
+  border-color: white;
+  height:20px;
+  width:40px;
+}
+div.bouton:first-child button {
+    margin-left:15px;
+}
+
+.experience h2{
+    margin-top:55px;
+}
+
+label{
+    border: solid 2px #36A;
+    height: 20px;
+    width:20px;
+    display: inline-block;
+    margin:4px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:40px;
+}
+label>div{
+    width:14px;
+    height:14px;
+    background-color: #FFF;
+    border-radius:40px;
+    transition: all 0.3s ease;
+
+}
+.cl:checked+label>div{
+    background-color:#36A;
+    transition: all 0.3s ease;
+}
+.cl{
+    display:none;
+}
+.offres .offre  p{
+    margin-top:-190px;
+    font-size: 1.5em;
+    white-space: nowrap;
+    position: absolute;
+    margin-left:30px;
+    color:grey;
+}
+.section_title2 span{
+    color:black;
+
+}
+.offres .derniere {
+    display: flex;
+    justify-content: center;
+    margin-left:145px;
+}
+
+label[for="Reg"]{
+  display: block;
+  font-weight:700;
+  font-size: larger;
+  padding-top:15px;
+  
+}
+.Region p{
+  margin-top:25px;
+}
+.Region select {
+  width: 270px; 
+  height:40px;
+  border-radius: 15px;
+  border-color: grey;
+  margin-top:25px;
+}
+.Region h1{
+  margin-top:15px;
+}
+.slider-cont{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    padding:25px;
+    border-radius:50px;
+    display: flex;
+    align-items: center;
+    margin-top:45px;
+}
+.slider{
+    position: relative;
+    width:300px;
+    height:8px;
+}
+
+.slider input[type="range"]{
+    position: absolute;
+    left:-2px;
+    width:304px;
+    height:8px;
+    top:0;
+    /*-webkit-appearance : none ;*/
+    background:transparent;
+    z-index:99;
+}
+.slider input::-webki-slider-thumb{
+    /*-webkite-appearance: none;*/
+    width:20px;
+    height:20px;
+    background-color:#fff;
+    border:2px solid rgba(9,205,240);
+    cursor:pointer;
+    border-radius: 50%;
+}    
+
+.slider input::webkit-slider-thumb:hover{
+    transform: scale(1.1);
+
+}
+.slider progress{
+width:300px;
+height:8px;
+-webkit-apearance: none;
+position: absolute;
+top:0;
+border-radius:5px;
+overflow:hidden;
+
+}
+.slider progress::-webkit-progress-bar{
+    background:#f0f0f0;
+}
+
+.slider progress::-webkit-progress-value{
+    background:rgba(9,205,240);
+}
+
+.sliderValue{
+  font-family:"Google Sans Regular";
+  width:28px;
+  height:20px;
+  margin-left:10px;
+  text-align:center;
+}
+
+
+
+.offres .derniere3 {
+    display: flex;
+    justify-content: center;
+    margin-left:-665px;
+    margin-top:300px;
+}
+.offres .derniere3 .boxes{
+    /*width: 340px;*/
+    border: 2px solid #BBBBBB; 
+    background-color:white;
+    height:280px;
+    border-radius: 15px;
+    width: 300px;
+    margin-top:450px;
+    margin-right:150px;
+    margin-left: -115px;
+    display: block;
+}
+.offres .derniere .boxes{
+    /*width: 340px;*/
+    border: 2px solid #BBBBBB; 
+    background-color:white;
+    height:280px;
+    border-radius: 15px;
+    width: 300px;
+    margin-top:-150px;
+    margin-right:150px;
+    margin-left: -115px;
+    display: block;
+  }
+  .derniere2{
+    display: flex;
+    justify-content: space-between;
+    margin-left:-770px;
+  }
+  .offres .derniere2 .boxes{
+    /*width: 340px;*/
+    border: 2px solid #BBBBBB; 
+    background-color: white;
+    height:280px;
+    border-radius: 15px;
+    width: 300px;
+    margin-top:150px;
+    margin-right:48px;
+    margin-left: -15px;
+    display: block;
+  }
+  
+  
+  .meilleur .boxes .boxe{
+  /*position: center;*/
+  /*display: wrap;*/ 
+  display: inline-block;
+  width: 30%; 
+  margin-right: 3%; /* une marge de 3% entre chaque élément */
+  box-sizing: border-box; /* pour inclure les bordures et les marges dans la largeur totale */
+  
+  }
+  
+  
+  
+  
+  .derniere .boxes .boxe img{ /*icon de google */
+  width:50px;
+  height:50px;
+  margin-top:11px;
+  border-radius: 20px;
+  
+  margin-left:5px;
+  position: absolute;
+  }
+  .derniere2 .boxes .boxe img{ /*icon de google */
+    width:50px;
+    height:50px;
+    margin-top:11px;
+    border-radius: 20px;
+    margin-left:5px;
+    position: absolute;
+  }
+  .derniere3 .boxes .boxe img{ /*icon de google */
+    width:50px;
+    height:50px;
+    margin-top:11px;
+    border-radius: 20px;
+    margin-left:5px;
+    position: absolute;
+  }
+  .derniere .boxes .tiret{
+    color: #3f3a3a;
+    margin-top:140px;
+    
+  }
+  .derniere3 .boxes .tiret{
+    color: #3f3a3a;
+    margin-top:140px;
+    
+  }
+  .derniere2 .boxes .tiret{
+    color: #3f3a3a;
+    margin-top:140px;
+  }
+  
+  .derniere .boxes .contenuGoogle h1{ /*google inc*/
+    font-size:20px;
+    color:#0076F8;
+    margin-right:-65px;
+    white-space: nowrap;
+    margin-top:30px;
+    /*margin-left:50px;*/
+    margin-left:85px;
+    /*margin-right:-75px;*/
+    
+  }
+  .derniere3 .boxes .contenuGoogle h1{ /*google inc*/
+    font-size:20px;
+    color:#0076F8;
+    margin-right:-65px;
+    white-space: nowrap;
+    margin-top:30px;
+    /*margin-left:50px;*/
+    margin-left:85px;
+    /*margin-right:-75px;*/
+    
+  }
+  .derniere2 .boxes .contenuGoogle h1{ /*google inc*/
+    font-size:20px;
+    color:#0076F8;
+    margin-right:-65px;
+    white-space: nowrap;
+    margin-top:30px;
+    /*margin-left:50px;*/
+    margin-left:85px;
+    /*margin-right:-75px;*/
+    
+  }
+  
+  .derniere .boxes .contenuGoogle .fa-solid {
+  margin-bottom:-18px;
+  
+  color: #0076F8;
+  /*margin-right:25px;*/
+  
+  margin-left:120px;
+  
+  }
+  .derniere3 .boxes .contenuGoogle .fa-solid {
+    margin-bottom:-18px;
+    
+    color: #0076F8;
+    /*margin-right:25px;*/
+    
+    margin-left:120px;
+    
+    }
+  .derniere2 .boxes .contenuGoogle .fa-solid {
+    margin-top:20px;
+    
+    color: #0076F8;
+    /*margin-right:25px;*/
+    
+    margin-left:120px;
+    
+    }
+  .derniere .boxes .contenuGoogle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .derniere3 .boxes .contenuGoogle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .derniere2 .boxes .contenuGoogle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .derniere .boxes .metier h1{
+    font-size:18px;
+    margin-top:145px;
+    position:absolute;
+    padding-left:15px;
+   
+  }
+  .derniere3 .boxes .metier h1{
+    font-size:18px;
+    margin-top:145px;
+    position:absolute;
+    padding-left:15px;
+   
+  }
+  .derniere2 .boxes .metier h1{
+    font-size:18px;
+    margin-top:145px;
+    position:absolute;
+    padding-left:15px;
+   
+  }
+  .derniere .boxes .metier{
+    display: flex;
+    align-items: center;
+   
+  }
+  .derniere3 .boxes .metier{
+    display: flex;
+    align-items: center;
+   
+  }
+  .derniere2 .boxes .metier{
+    display: flex;
+    align-items: center;
+   
+  }
+  .derniere .boxes .metier p{
+    font-size:10px;
+    margin-left:15px;
+    margin-top:210px;
+    position:absolute;
+    color:black;
+    font-size:18px;
+   
+  }
+  .derniere3 .boxes .metier p{
+    font-size:10px;
+    margin-left:15px;
+    margin-top:210px;
+    position:absolute;
+    color:black;
+    font-size:18px;
+   
+  }
+  .derniere .boxes .metier p span{
+    color:gray;
+  }
+  .derniere3 .boxes .metier p span{
+    color:gray;
+  }
+  .derniere2 .boxes .metier p{
+    font-size:10px;
+    margin-left:15px;
+    margin-top:210px;
+    position:absolute;
+    color:black;
+    font-size:18px;
+  }
+  .derniere2 .boxes .metier p span{
+    color:gray;
+  }
+  
+  .derniere .boxes .lieu{
+    display: flex;
+    align-items: center;
+   
+  }
+  .derniere3 .boxes .lieu{
+    display: flex;
+    align-items: center;
+   
+  }
+  .derniere2 .boxes .lieu{
+    display: flex;
+    align-items: center;
+   
+  }
+  .derniere .boxes .lieu h1{
+    font-size:15px;
+    padding-top:15px;
+    padding-left:15px;
+    font-weight: 800px;
+  }
+  .derniere3 .boxes .lieu h1{
+    font-size:15px;
+    padding-top:15px;
+    padding-left:15px;
+    font-weight: 800px;
+  }
+  .derniere2 .boxes .lieu h1{
+    font-size:15px;
+    padding-top:15px;
+    padding-left:15px;
+  }
+  .derniere2 .boxes .lieu p{
+   padding-top:25px;
+  }
+  .derniere3 .boxes .lieu p{
+    padding-top:25px;
+   }
+  .derniere2 .boxes .lieu p{
+    padding-top:25px;
+  }
+  .derniere .boxes .lieu img{
+    width:20px;
+    height:20px;
+    margin-left:12px;
+    margin-top:4px;
+  }
+  .derniere3 .boxes .lieu img{
+    width:20px;
+    height:20px;
+    margin-left:12px;
+    margin-top:4px;
+  }
+  .derniere2 .boxes .lieu img{
+    width:20px;
+    height:20px;
+    margin-left:12px;
+    margin-top:4px;
+  }
+  .derniere .boxes .lieu i{
+    margin-left:12px;
+    margin-top:4px;
+  }
+  .derniere3 .boxes .lieu i{
+    margin-left:12px;
+    margin-top:4px;
+  }
+  .derniere .boxes .lieu i{
+    margin-left:12px;
+    margin-top:4px;
+  }
+  .derniere .boxes .lieu button{
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  border-color: red;
+  margin-left:20px;
+  height:25px;
+  margin-top:8px;
+  }
+  .derniere3 .boxes .lieu button{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border-color: red;
+    margin-left:20px;
+    height:25px;
+    margin-top:8px;
+    }
+  .derniere2 .boxes .lieu button{
+   background-color: red; 
+    color: white;
+    border-radius:10px;
+    border-color: red;
+    margin-left:20px;
+    height:25px;
+    margin-top:8px;
+  }
+  .derniere .bouton button{
+    background-color: blue;
+    white-space:nowrap;
+    border-color:blue;
+    border-radius:15px;
+    height:50px;
+    width:250px;
+    color: white;
+    font-size:20px;
+    font-weight: 900px;
+    margin-top:480px;
+    margin-left:-680px;
+  }
+  .derniere3 .bouton button{
+    background-color: blue;
+    white-space:nowrap;
+    border-color:blue;
+    border-radius:15px;
+    height:50px;
+    width:250px;
+    color: white;
+    font-size:20px;
+    font-weight: 900px;
+    margin-top:480px;
+    margin-left:-680px;
+  }
+  
+  .boxes .boutton button {
+    border-radius: 5px;
+    white-space: nowrap;
+    margin-left:-250px;
+    margin-top:60px;
+    position: absolute;
+    
+  }
+  .derniere2 .boutton button {
+    border-radius: 5px;
+    white-space: nowrap;
+    margin-left:-250px;
+    margin-top:60px;
+    position: absolute;
+    
+  }
+  
+  .derniere3 .boutton button {
+    border-radius: 5px;
+    white-space: nowrap;
+    margin-left:-250px;
+    margin-top:60px;
+    position: absolute;
+    
+  }
+/*responsive*/
+
+@media screen and (max-width: 1199px) {
+  section#emplois {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .emplois {
+      padding: 20px;
+    }
+    
+    .emploi {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .input-icon {
+      margin-bottom: 10px;
+    }
+    
+    .Jobs {
+      margin-bottom: 10px;
+    }
+  }
+  ul.emploi {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  ul.emploi li {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+
+  .emplois .emploi img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    float: none;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .Jobs select {
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,364 @@
+:root  {
+    --bgColor : #ffffff;
+    --bgColorC : #FFF9F3;
+    --bgColorB : #E5F6FF;
+    --bgColorG : #999999;
+    --bgColorGr : #DDDDDD;
+    --buttonColor :#9777FA;
+    --txtColor : #000000;
+    --shadow : #77777763;
+    --marginP : 50px; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--txtColor);
+}
+
+.flex {
+    display: flex;
+}
+.hors {
+    /*font-family: 'Times New Roman', Times, serif;*/
+    background-color: var(--bgColorB);
+    padding-top: 60px;
+}
+.Menu {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    height: 140vh;
+    width: 260px;
+    
+    padding-top: 50px;
+    background-color: var(--bgColor);
+    align-items: center;
+    border-radius: 20px;
+}
+
+.img {
+    background-color: var(--bgColorG) ;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.Menu .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.Menu .img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.nom {
+    font-size: 16pt;
+    margin: 12px 0 24px 0;
+}
+.Parametres {
+    align-self: self-start;
+    margin: 15px 0 25px 15px; 
+}
+.par {
+    align-self: self-start;
+    margin-left: 25px;
+}
+.items {
+    margin: 5px 0 15px 0;
+}
+
+.items .btn {
+    display: flex;
+    cursor: pointer;
+    padding: 15px  20px;
+    align-items: center;
+    border-radius: 20px;
+    width: 190px;
+    border: var(--buttonColor) 2px solid;
+    color: var(--txtColor);
+    background-color: var(--bgColor);
+}
+.items > .btn p {
+    margin-left: 5px;
+    font-size: 10pt;
+}
+.items .active {
+    color: var(--bgColor);
+    background-color: var(--buttonColor);
+}
+.title {
+    margin: 15px;
+}
+.Inputs {
+    width: 1050px;
+    padding-bottom: 25px;
+    background-color: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: var(--bgColor);
+    border-radius: 20px;
+    align-items: start;
+}
+.imgsetting {
+    margin: 25px 0 40px var(--marginP);
+    align-items: center;
+}
+.primarybtn {
+    height: 30px;
+    cursor: pointer;
+    background-color: var(--buttonColor);
+    border-radius: 7px;
+    align-items: center;
+    border: var(--bgColor);
+    color: var(--bgColor);
+    padding: 5px 10px ;
+}
+.imgsetting .primarybtn {
+    cursor: pointer;
+    margin-left: 40px;
+}
+.imgsetting .primarybtn p {
+    margin-top: 5px;
+    align-self: center;
+}
+.imgsetting .primarybtn input {
+    display: none;
+}
+.secondbtn {
+    height: 40px;
+    background-color: var(--bgColor);
+    cursor: pointer;
+    border-radius: 7px;
+    border: var(--bgColor);
+    color: var(--txtColor);
+    padding: 5px 10px ;
+    margin-left: 20px;
+}
+
+.itmsflex {
+    display: flex;
+    margin-left: var(--marginP);
+    align-items: baseline;
+    justify-content: space-around;
+}
+.itmsflex .form {
+    margin: 15px 20px 15px 0;
+}
+.piinput {
+    width: 210px;
+    height: 40px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    margin: 15px 20px 15px  0;
+    padding-left: 10px;
+}
+.itmsflex .form .input {
+    width: 450px;
+    height: 40px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+.mt {
+    margin-top: 30px;
+} 
+.ml {
+    margin-left: var(--marginP);
+}
+.itsform .num {
+    width: 80px;
+    height: 40px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    margin-right: 17px;
+}
+.itsform .input {
+    width: 350px;
+    height: 40px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    margin: 15px 0;
+    padding-left: 10px;
+} 
+.form1 .itsform .selec {
+    width: 225px;
+    height: 40px;
+    margin: 15px 0;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-right: 17px;
+}
+.form textarea {
+    width: 950px;
+    height: 100px;
+    margin: 15px 0;
+    padding: 10px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+}
+.Buttons {
+    margin-top: 40px;
+    align-items: center;
+}
+.tete {
+    margin-left: var(--marginP); 
+    color: var(--buttonColor);
+}
+.form .input {
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+.Res {
+    display: flex;
+    align-items: baseline;
+}
+.Res .primarybtn {
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+}
+.Res .selec {
+    width: 225px;
+    height: 40px;
+    margin: 15px 0;
+    border: var(--buttonColor) 1px solid;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin: 0 24px;
+}
+.btnaj {
+    height: 40px;
+    width: 150px;
+    padding-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: var(--marginP);
+    color: var(--txtColor);
+    background-color: var(--bgColorG);
+    border: var(--bgColor) 1px solid;
+    border-radius: 7px;
+}
+.Abonn {
+    width: 300px;
+    background-color: var(--bgColorC);
+    border-radius: 42px;
+    margin-top: 25px;
+    padding: 42px 15px;
+    margin-left: var(--marginP);
+}
+.prixmois {
+    margin-left: 20px;
+    align-items: end;
+}
+.mois {
+    color: var(--bgColorG);
+    padding-left: 10px;
+}
+.cont .items .item {
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+.cont .items .item p {
+    padding-left: 10px ;
+}
+.tmpsres {
+    margin: 50px;
+    justify-content: center;
+}
+.tmpsres h2 {
+    color: var(--buttonColor);
+    margin-bottom: 40px;
+}
+.tmpsres h1 {
+    margin: 50px 30px;
+}
+.tmpsres button {
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    background-color: var(--buttonColor);
+    border: var(--bgColor) 1px solid;
+    border-radius: 7px;
+    margin: 100px 180px;
+    color: var(--txtColor);
+}
+
+.border-red {
+    border: #FF0000 2px solid;
+}
+.hidden {
+    display: none;
+}
+
+.cv-download {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    cursor: pointer;
+    padding: 5px 10px ;
+    font-size: large;
+    color: var(--bgColor);
+    background-color: var(--buttonColor);
+    border-radius: 7px;
+    margin: 15px 25px 25px 90px;
+}
+.cv-downloa {
+    display: none;
+}
+.cv-download i{
+    margin: 0 5px;
+}
+.cv-download .inputnone {
+    display: none;
+}
+.res .cv-download{
+    margin-right: 10px;
+}
+.tag {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-top: 50px ;
+}
+.tag .tg {
+    padding: 5px 0 5px 10px;
+    margin: 0 15px 15px 15px;
+    color: var(--txtColor);
+    background-color: var(--bgColorB);
+    height: 30px;
+    border-radius: 7px;
+    align-items: center;
+}
+.close {
+    background-color: var(--bgColorB);
+    border: 0px ;
+    cursor: pointer;
+    margin: 0px 5px 20px 10px;
+}
+
+.yourDips .Res {
+    display: none;
+}

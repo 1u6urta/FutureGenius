@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'popping', sans-serif;
+    scroll-behavior: smooth;
+    }
+   
+    footer{
+       
+        background-color: #E5E5E5;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        padding: 20px 10px;
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 0.5s;
+        height:180px;
+    }
+    .logo{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        text-decoration: none;
+        position: absolute;
+        margin-right:1000px;
+        margin-top:-85px;
+    }
+    .logo span{
+        color:black;
+    }
+    .navbar{
+        display: flex;
+        position: relative; 
+        }
+    .navbar li{
+        list-style: none;
+        ;
+    }
+    .navbar a{
+        /*color: #fff;*/
+        text-decoration: none;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+    header .navbar li a:hover {
+        color: black;
+        border-bottom: 2px solid black;
+    
+    }
+    
+    footer h1{
+        margin-top:60px;
+        color: black;
+        font-size:15px;
+        margin-left:-95px;
+        position: absolute;
+        white-space: nowrap;
+    }
+    footer h2{
+        color: white;
+        width:200px;
+        margin-left:-100px;
+        position:absolute;
+    }
+    footer img{
+        
+        margin-left:13px;
+        width:30px;
+        height: 30px;
+        margin-right:-8px;
+        margin-top:55px;
+        border-radius:50%;
+
+    }
+    .reseaux {
+        display: flex;
+        justify-content: space-between;
+        margin-left:770px;
+        position: absolute;
+        margin-top:-8px;
+      }
+    .reseaux img {
+        display: flex;
+        justify-content: flex-end;
+      
+      }
+    ul.navbar li{
+        display: flex;
+        justify-content: flex-end;
+        margin-left:85px;
+        margin-top:-50px;
+        margin-right:-3px;
+        
+    }
+    
+    /*responsive*/
+    @media only screen and (max-width: 600px) {
+        .navbar {
+            justify-content: center;
+        }
+
+        .navbar li {
+            margin: 5px;
+        }
+    }
