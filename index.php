@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    include("back/database.php");
+    if ( isset($_GET['Trouver'])) {
+        header("Location: trouventreprise.php?Post=545454&Region=1000001&Trouver=#");
+    }
+    $myinfo = $datebase -> prepare("SELECT * FROM employeur");
+    $myinfo ->execute();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
