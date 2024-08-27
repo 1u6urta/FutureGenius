@@ -102,58 +102,6 @@
             <div class="titre">
                 <h1 class="section_title"> Meilleurs profils de la semaine. </h1>
             </div>
-            <div class="meilleur">
-                <?php
-                    foreach($myinfo AS $info) {
-                ?>
-                <div class="box ">
-                    <div class="inbox">
-                        <?php
-                            $mypic = $datebase -> prepare("SELECT * FROM images WHERE idEmployeur = :id AND estProfil = 1 ");
-                            $mypic ->bindParam("id",$info['idCandidat']);
-                            $mypic ->execute();
-                            foreach ( $mypic AS $pic ) {
-                        ?>
-                        <img src="<?php echo $pic['cheminImage'].$pic['nomImage']; ?>" alt="">
-                        <?php } ?>
-                    </div>  
-                    <div class="text">  
-                        <h1><?php echo $info['prenomCandidat'] ?></h1>
-                        <p><?php echo $info['proffession']; ?></p> 
-                    </div>
-                    <div  class="reaction">
-                        <?php 
-                            $mytags = $datebase -> prepare("SELECT * FROM tags WHERE idEmployeur = :id ");
-                            $mytags ->bindParam("id",$info['idCandidat']);
-                            $mytags ->execute();
-                            $i = 0;
-                            foreach ( $mytags AS $tag ) {
-                                echo '<button>'.$tag['nameTag'].'</button>';
-                                $i= $i +1 ;
-                                if ( $i > 2 ) {
-                                    break;
-                                }
-                            }
-                        ?>
-                        <button>..</button>
-                    </div>
-                    <div class="Contact">
-                        <button>Contacter</button>
-                        <img src="./images/Sauvegarder.png" alt="">
-                    </div>
-                    <div  class="etoiles">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-regular fa-star"></i>
-                    </div>
-                    <div class="bouton">
-                        <a href="profile.php?id=<?php echo $info['idCandidat'];?>">Voir plus</a>
-                    </div>
-                </div>  
-                <?php
-                    } 
-                ?>
         </div>
         <div class="offres" id="offres" >
             <div class="offre">
